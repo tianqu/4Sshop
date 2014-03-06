@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2BAA04A-F9A7-48F1-884C-1A381D46537F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProjectFor4SShop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8CA33516-121C-4E3B-9854-C5DAF5A0D5CB</key>
+		<string>https://github.com/tianqu/4Sshop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProjectFor4SShop/ProjectFor4SShop.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8CA33516-121C-4E3B-9854-C5DAF5A0D5CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tianqu/4Sshop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8CA33516-121C-4E3B-9854-C5DAF5A0D5CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8CA33516-121C-4E3B-9854-C5DAF5A0D5CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4Sshop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
