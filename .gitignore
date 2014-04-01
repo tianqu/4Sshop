@@ -1,4 +1,21 @@
-
-ProjectFor4SShop/ProjectFor4SShop.xcodeproj/project.xcworkspace/xcuserdata/lanou3g.xcuserdatad/UserInterfaceState.xcuserstate
-
-ProjectFor4SShop/ProjectFor4SShop.xcodeproj/xcuserdata/lanou3g.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+Tests/Pods
+Tests/Podfile.lock
+Tests/AFNetworking Tests.xcodeproj/xcshareddata/xcschemes/
