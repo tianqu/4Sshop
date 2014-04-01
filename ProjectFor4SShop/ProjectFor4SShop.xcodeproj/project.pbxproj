@@ -135,7 +135,6 @@
 		C2BDFB6E18EA87DB00573FAA /* 内容区扩展箭头图标.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB2E18EA87DB00573FAA /* 内容区扩展箭头图标.png */; };
 		C2BDFB6F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB2F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png */; };
 		C2BDFB7018EA87DB00573FAA /* 文字标签栏（选中状态）.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB3018EA87DB00573FAA /* 文字标签栏（选中状态）.png */; };
-		C2CE6A3518EA8AB500B19D7E /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE6A3418EA8AB500B19D7E /* model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -332,8 +331,6 @@
 		C2BDFB2E18EA87DB00573FAA /* 内容区扩展箭头图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内容区扩展箭头图标.png"; sourceTree = "<group>"; };
 		C2BDFB2F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字标签栏 带分割线 常态.png"; sourceTree = "<group>"; };
 		C2BDFB3018EA87DB00573FAA /* 文字标签栏（选中状态）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字标签栏（选中状态）.png"; sourceTree = "<group>"; };
-		C2CE6A3318EA8AB500B19D7E /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = SOURCE_ROOT; };
-		C2CE6A3418EA8AB500B19D7E /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,8 +476,6 @@
 		C29B4D6618C8257200C68372 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C2CE6A3318EA8AB500B19D7E /* model.h */,
-				C2CE6A3418EA8AB500B19D7E /* model.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1213,7 +1208,6 @@
 				C29B4DC718C8451B00C68372 /* CherishClassViewController.m in Sources */,
 				C29B4DDC18C84C8400C68372 /* FirstStepViewController.m in Sources */,
 				C29B4D9D18C82A4500C68372 /* CarKnowledgeViewController.m in Sources */,
-				C2CE6A3518EA8AB500B19D7E /* model.m in Sources */,
 				C29B4DC118C842AD00C68372 /* MemberSpecialViewController.m in Sources */,
 				C29B4E1518C8602800C68372 /* SkillViewController.m in Sources */,
 				C29B4DE518C84EAE00C68372 /* CounselorViewController.m in Sources */,
