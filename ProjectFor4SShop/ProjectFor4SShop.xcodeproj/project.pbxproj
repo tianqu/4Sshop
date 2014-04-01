@@ -41,11 +41,9 @@
 		C29B4DCD18C845D300C68372 /* ComboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DCC18C845D300C68372 /* ComboViewController.m */; };
 		C29B4DD318C847C800C68372 /* ComboDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DD218C847C800C68372 /* ComboDetailViewController.m */; };
 		C29B4DD618C84AD200C68372 /* CricumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DD518C84AD200C68372 /* CricumViewController.m */; };
-		C29B4DD918C84C1000C68372 /* ServiceReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DD818C84C1000C68372 /* ServiceReservationViewController.m */; };
 		C29B4DDC18C84C8400C68372 /* FirstStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DDB18C84C8400C68372 /* FirstStepViewController.m */; };
 		C29B4DDF18C84D7C00C68372 /* NextStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DDE18C84D7C00C68372 /* NextStepViewController.m */; };
 		C29B4DE218C84DBC00C68372 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DE118C84DBC00C68372 /* SuccessViewController.m */; };
-		C29B4DE518C84EAE00C68372 /* CounselorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DE418C84EAE00C68372 /* CounselorViewController.m */; };
 		C29B4DE818C84F4E00C68372 /* NewCarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DE718C84F4E00C68372 /* NewCarsViewController.m */; };
 		C29B4DEB18C84F9700C68372 /* CarParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DEA18C84F9700C68372 /* CarParameterViewController.m */; };
 		C29B4DEE18C8565000C68372 /* TestDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B4DED18C8565000C68372 /* TestDriveViewController.m */; };
@@ -135,6 +133,9 @@
 		C2BDFB6E18EA87DB00573FAA /* 内容区扩展箭头图标.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB2E18EA87DB00573FAA /* 内容区扩展箭头图标.png */; };
 		C2BDFB6F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB2F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png */; };
 		C2BDFB7018EA87DB00573FAA /* 文字标签栏（选中状态）.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFB3018EA87DB00573FAA /* 文字标签栏（选中状态）.png */; };
+		C2CE6A3B18EAA29500B19D7E /* ServiceReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE6A3A18EAA29500B19D7E /* ServiceReservationViewController.m */; };
+		C2CE6A3E18EAA4C100B19D7E /* CounselorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE6A3D18EAA4C100B19D7E /* CounselorViewController.m */; };
+		C2CE6A4418EAAA2C00B19D7E /* CounselorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CE6A4318EAAA2C00B19D7E /* CounselorCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,16 +208,12 @@
 		C29B4DD218C847C800C68372 /* ComboDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboDetailViewController.m; sourceTree = "<group>"; };
 		C29B4DD418C84AD200C68372 /* CricumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricumViewController.h; sourceTree = "<group>"; };
 		C29B4DD518C84AD200C68372 /* CricumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricumViewController.m; sourceTree = "<group>"; };
-		C29B4DD718C84C1000C68372 /* ServiceReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceReservationViewController.h; sourceTree = "<group>"; };
-		C29B4DD818C84C1000C68372 /* ServiceReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceReservationViewController.m; sourceTree = "<group>"; };
 		C29B4DDA18C84C8400C68372 /* FirstStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstStepViewController.h; sourceTree = "<group>"; };
 		C29B4DDB18C84C8400C68372 /* FirstStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstStepViewController.m; sourceTree = "<group>"; };
 		C29B4DDD18C84D7C00C68372 /* NextStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextStepViewController.h; sourceTree = "<group>"; };
 		C29B4DDE18C84D7C00C68372 /* NextStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextStepViewController.m; sourceTree = "<group>"; };
 		C29B4DE018C84DBC00C68372 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
 		C29B4DE118C84DBC00C68372 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
-		C29B4DE318C84EAE00C68372 /* CounselorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounselorViewController.h; sourceTree = "<group>"; };
-		C29B4DE418C84EAE00C68372 /* CounselorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounselorViewController.m; sourceTree = "<group>"; };
 		C29B4DE618C84F4E00C68372 /* NewCarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCarsViewController.h; sourceTree = "<group>"; };
 		C29B4DE718C84F4E00C68372 /* NewCarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCarsViewController.m; sourceTree = "<group>"; };
 		C29B4DE918C84F9700C68372 /* CarParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarParameterViewController.h; sourceTree = "<group>"; };
@@ -331,6 +328,12 @@
 		C2BDFB2E18EA87DB00573FAA /* 内容区扩展箭头图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内容区扩展箭头图标.png"; sourceTree = "<group>"; };
 		C2BDFB2F18EA87DB00573FAA /* 文字标签栏 带分割线 常态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字标签栏 带分割线 常态.png"; sourceTree = "<group>"; };
 		C2BDFB3018EA87DB00573FAA /* 文字标签栏（选中状态）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字标签栏（选中状态）.png"; sourceTree = "<group>"; };
+		C2CE6A3918EAA29500B19D7E /* ServiceReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceReservationViewController.h; sourceTree = "<group>"; };
+		C2CE6A3A18EAA29500B19D7E /* ServiceReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceReservationViewController.m; sourceTree = "<group>"; };
+		C2CE6A3C18EAA4C100B19D7E /* CounselorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounselorViewController.h; sourceTree = "<group>"; };
+		C2CE6A3D18EAA4C100B19D7E /* CounselorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounselorViewController.m; sourceTree = "<group>"; };
+		C2CE6A4218EAAA2C00B19D7E /* CounselorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounselorCell.h; sourceTree = SOURCE_ROOT; };
+		C2CE6A4318EAAA2C00B19D7E /* CounselorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounselorCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -671,16 +674,16 @@
 		C29B4D7B18C8257200C68372 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C29B4DD718C84C1000C68372 /* ServiceReservationViewController.h */,
-				C29B4DD818C84C1000C68372 /* ServiceReservationViewController.m */,
+				C2CE6A3918EAA29500B19D7E /* ServiceReservationViewController.h */,
+				C2CE6A3A18EAA29500B19D7E /* ServiceReservationViewController.m */,
 				C29B4DDA18C84C8400C68372 /* FirstStepViewController.h */,
 				C29B4DDB18C84C8400C68372 /* FirstStepViewController.m */,
 				C29B4DDD18C84D7C00C68372 /* NextStepViewController.h */,
 				C29B4DDE18C84D7C00C68372 /* NextStepViewController.m */,
 				C29B4DE018C84DBC00C68372 /* SuccessViewController.h */,
 				C29B4DE118C84DBC00C68372 /* SuccessViewController.m */,
-				C29B4DE318C84EAE00C68372 /* CounselorViewController.h */,
-				C29B4DE418C84EAE00C68372 /* CounselorViewController.m */,
+				C2CE6A3C18EAA4C100B19D7E /* CounselorViewController.h */,
+				C2CE6A3D18EAA4C100B19D7E /* CounselorViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -695,6 +698,8 @@
 		C29B4D7D18C8257200C68372 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2CE6A4218EAAA2C00B19D7E /* CounselorCell.h */,
+				C2CE6A4318EAAA2C00B19D7E /* CounselorCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1168,7 +1173,6 @@
 				C29B4DE818C84F4E00C68372 /* NewCarsViewController.m in Sources */,
 				C2917C8118C741D600AC9210 /* AppDelegate.m in Sources */,
 				C29B4DBE18C8427100C68372 /* ShareViewController.m in Sources */,
-				C29B4DD918C84C1000C68372 /* ServiceReservationViewController.m in Sources */,
 				C2917C7D18C741D600AC9210 /* main.m in Sources */,
 				C29B4DA018C82ABE00C68372 /* KnowledgeViewController.m in Sources */,
 				C29B4DAC18C83F1700C68372 /* ShopInfoViewController.m in Sources */,
@@ -1176,6 +1180,7 @@
 				C29B4E1218C85EDE00C68372 /* MessageInstallViewController.m in Sources */,
 				C29B4DB818C8415D00C68372 /* ActivityViewController.m in Sources */,
 				C29B4D9118C825C000C68372 /* HomeViewController.m in Sources */,
+				C2CE6A3B18EAA29500B19D7E /* ServiceReservationViewController.m in Sources */,
 				C29B4E0918C85E0700C68372 /* UseMyDiscountViewController.m in Sources */,
 				C29B4DDF18C84D7C00C68372 /* NextStepViewController.m in Sources */,
 				C29B4E0618C85A6100C68372 /* MyDiscountViewController.m in Sources */,
@@ -1209,8 +1214,9 @@
 				C29B4DDC18C84C8400C68372 /* FirstStepViewController.m in Sources */,
 				C29B4D9D18C82A4500C68372 /* CarKnowledgeViewController.m in Sources */,
 				C29B4DC118C842AD00C68372 /* MemberSpecialViewController.m in Sources */,
+				C2CE6A4418EAAA2C00B19D7E /* CounselorCell.m in Sources */,
+				C2CE6A3E18EAA4C100B19D7E /* CounselorViewController.m in Sources */,
 				C29B4E1518C8602800C68372 /* SkillViewController.m in Sources */,
-				C29B4DE518C84EAE00C68372 /* CounselorViewController.m in Sources */,
 				C29B4E0018C8599B00C68372 /* MessageDetailViewController.m in Sources */,
 				C29B4DCA18C8453C00C68372 /* ClassDetailViewController.m in Sources */,
 				C29B4DFA18C8586700C68372 /* ChangePasswordViewController.m in Sources */,
