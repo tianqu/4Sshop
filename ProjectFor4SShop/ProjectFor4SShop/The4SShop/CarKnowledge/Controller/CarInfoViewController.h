@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CarInfoViewController : UIViewController
+@interface CarInfoViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

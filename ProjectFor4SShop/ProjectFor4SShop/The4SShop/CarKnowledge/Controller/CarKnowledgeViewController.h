@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface CarKnowledgeViewController : UIViewController
-
+{
+    
+    IBOutlet UIButton *AccidentInfo;
+    IBOutlet UIButton *InsuranceInfo;
+    IBOutlet UIButton *CarInfo;
+    IBOutlet UIButton *DriveInfo;
+}
 @end
