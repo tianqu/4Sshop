@@ -764,9 +764,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="会员中心" id="o76-F3-AU4">
-                        <barButtonItem key="leftBarButtonItem" title="返回" id="AYZ-oa-gsW"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="会员中心" id="o76-F3-AU4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dD2-X8-v9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1903,7 +1901,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grj-Xi-HLT">
                                 <rect key="frame" x="160" y="65" width="160" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" patternImage="16A56772-3187-4E5E-BC20-D3EEE32C7DB2" colorSpace="pattern"/>
+                                <color key="backgroundColor" patternImage="368FAB32-4BCC-4DF6-B8C6-D63B769630A9" colorSpace="pattern"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="疑难问答">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2019,7 +2017,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv1-UM-AOQ">
                                 <rect key="frame" x="160" y="65" width="160" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" patternImage="39EC7D22-01D8-4482-BF53-26772E9C9FE9" colorSpace="pattern"/>
+                                <color key="backgroundColor" patternImage="B9ADB28B-41F0-44AB-9DAF-508119F69A13" colorSpace="pattern"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="疑难问答">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2028,7 +2026,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJO-Bf-15m">
                                 <rect key="frame" x="80" y="221" width="160" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" patternImage="DA1A0668-1E0E-4CF2-A3EE-6AE4BF11EE1E" colorSpace="pattern"/>
+                                <color key="backgroundColor" patternImage="127F6000-D604-4C09-AFB4-936545961F89" colorSpace="pattern"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="起步">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2335,7 +2333,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="16A56772-3187-4E5E-BC20-D3EEE32C7DB2" width="256" height="256">
+        <image name="127F6000-D604-4C09-AFB4-936545961F89" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6777,7 +6775,7 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="39EC7D22-01D8-4482-BF53-26772E9C9FE9" width="256" height="256">
+        <image name="368FAB32-4BCC-4DF6-B8C6-D63B769630A9" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -11219,7 +11217,7 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="DA1A0668-1E0E-4CF2-A3EE-6AE4BF11EE1E" width="256" height="256">
+        <image name="B9ADB28B-41F0-44AB-9DAF-508119F69A13" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
