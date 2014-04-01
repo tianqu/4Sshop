@@ -7,6 +7,7 @@
 //
 
 #import "CarInfoViewController.h"
+#import "CarInfoCell.h"
 
 @interface CarInfoViewController ()
 
@@ -28,6 +29,23 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 20;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIndetifier = @"Carcell";
+    CarInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndetifier];
+    cell.carImageView.image = DefaultImage;
+    cell.titleLabel.text = @"全新捷达日供不过30元";
+    cell.timeLabel.text = @"2013-4-1 11:32";
+    cell.contentLabel.text = @"全新捷达现已上市,新模式......";
+    return cell;
+}
+
 
 - (void)didReceiveMemoryWarning
 {

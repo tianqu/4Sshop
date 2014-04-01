@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C249B69A18EA927F00E105EE /* CarKnowLedgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C249B69918EA927F00E105EE /* CarKnowLedgeView.m */; };
+		C249B69D18EAAF5E00E105EE /* CarInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C249B69C18EAAF5E00E105EE /* CarInfoCell.m */; };
+		C249B69F18EAB66100E105EE /* baomaqiche.png in Resources */ = {isa = PBXBuildFile; fileRef = C249B69E18EAB66100E105EE /* baomaqiche.png */; };
 		C2917C7118C741D600AC9210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2917C7018C741D600AC9210 /* Foundation.framework */; };
 		C2917C7318C741D600AC9210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2917C7218C741D600AC9210 /* CoreGraphics.framework */; };
 		C2917C7518C741D600AC9210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2917C7418C741D600AC9210 /* UIKit.framework */; };
@@ -148,6 +151,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C249B69818EA927F00E105EE /* CarKnowLedgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarKnowLedgeView.h; sourceTree = "<group>"; };
+		C249B69918EA927F00E105EE /* CarKnowLedgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarKnowLedgeView.m; sourceTree = "<group>"; };
+		C249B69B18EAAF5E00E105EE /* CarInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInfoCell.h; sourceTree = "<group>"; };
+		C249B69C18EAAF5E00E105EE /* CarInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarInfoCell.m; sourceTree = "<group>"; };
+		C249B69E18EAB66100E105EE /* baomaqiche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baomaqiche.png; sourceTree = "<group>"; };
 		C2917C6D18C741D600AC9210 /* ProjectFor4SShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFor4SShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2917C7018C741D600AC9210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2917C7218C741D600AC9210 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -357,6 +365,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C249B69118EA8D9C00E105EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C249B69718EA926B00E105EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C249B69818EA927F00E105EE /* CarKnowLedgeView.h */,
+				C249B69918EA927F00E105EE /* CarKnowLedgeView.m */,
+				C249B69B18EAAF5E00E105EE /* CarInfoCell.h */,
+				C249B69C18EAAF5E00E105EE /* CarInfoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C2917C6418C741D600AC9210 = {
 			isa = PBXGroup;
 			children = (
@@ -490,9 +516,9 @@
 		C29B4D6818C8257200C68372 /* CarKnowledge */ = {
 			isa = PBXGroup;
 			children = (
+				C249B69718EA926B00E105EE /* View */,
 				C29B4D6918C8257200C68372 /* Controller */,
-				C29B4D6A18C8257200C68372 /* Model */,
-				C29B4D6B18C8257200C68372 /* View */,
+				C249B69118EA8D9C00E105EE /* Model */,
 			);
 			path = CarKnowledge;
 			sourceTree = "<group>";
@@ -514,20 +540,6 @@
 				C29B4DA818C8326100C68372 /* SubmitViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C29B4D6A18C8257200C68372 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C29B4D6B18C8257200C68372 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C29B4D6C18C8257200C68372 /* CarsClub */ = {
@@ -910,6 +922,7 @@
 		C2BDFAED18EA87DB00573FAA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C249B69E18EAB66100E105EE /* baomaqiche.png */,
 				C2BDFAEE18EA87DB00573FAA /* 4S汽车项目切图-1 */,
 				C2BDFB0E18EA87DB00573FAA /* 4S汽车项目切图_2 */,
 				C2BDFB2618EA87DB00573FAA /* 4S汽车项目切图_3 */,
@@ -1047,7 +1060,7 @@
 		C2917C6518C741D600AC9210 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "申闯";
 				TargetAttributes = {
 					C2917C8718C741D700AC9210 = {
@@ -1121,6 +1134,7 @@
 				C2BDFB6118EA87DB00573FAA /* iphone_service.png in Resources */,
 				C2BDFB5818EA87DB00573FAA /* iphone_icon_02.png in Resources */,
 				C2BDFB5418EA87DB00573FAA /* iphone_gray_return.png in Resources */,
+				C249B69F18EAB66100E105EE /* baomaqiche.png in Resources */,
 				C2917C8318C741D700AC9210 /* Images.xcassets in Resources */,
 				C2BDFB6C18EA87DB00573FAA /* radio-noraml@2x.png in Resources */,
 				C2BDFB3D18EA87DB00573FAA /* ico7@2x.png in Resources */,
@@ -1183,6 +1197,7 @@
 				C29B4DF118C856AF00C68372 /* PermuteCarViewController.m in Sources */,
 				C29B4DA618C82D7D00C68372 /* QuestionDetailViewController.m in Sources */,
 				C29B4E0318C85A0600C68372 /* EvaluateViewController.m in Sources */,
+				C249B69A18EA927F00E105EE /* CarKnowLedgeView.m in Sources */,
 				C29B4E0F18C85E9200C68372 /* InstallViewController.m in Sources */,
 				C29B4E2718C8658A00C68372 /* MoreInfoViewController.m in Sources */,
 				C29B4E2A18C865BF00C68372 /* InterestViewController.m in Sources */,
@@ -1193,6 +1208,7 @@
 				C29B4DD318C847C800C68372 /* ComboDetailViewController.m in Sources */,
 				C29B4E2D18C865FE00C68372 /* CarTypeViewController.m in Sources */,
 				C29B4E1B18C8613300C68372 /* LoginViewController.m in Sources */,
+				C249B69D18EAAF5E00E105EE /* CarInfoCell.m in Sources */,
 				C29B4E1E18C862EA00C68372 /* InviteRegisterViewController.m in Sources */,
 				C29B4DBB18C8421900C68372 /* ActivityDetailViewController.m in Sources */,
 				C29B4E0C18C85E5E00C68372 /* MemberRuleViewController.m in Sources */,
@@ -1261,7 +1277,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1300,7 +1315,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1358,7 +1372,6 @@
 		C2917C9D18C741D700AC9210 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectFor4SShop.app/ProjectFor4SShop";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1381,7 +1394,6 @@
 		C2917C9E18C741D700AC9210 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectFor4SShop.app/ProjectFor4SShop";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
