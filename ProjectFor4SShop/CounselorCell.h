@@ -1,5 +1,5 @@
 //
-//  CounselorViewController.h
+//  CounselorCell.h
 //  ProjectFor4SShop
 //
 //  Created by lanou3g on 14-4-1.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CounselorViewController : UITableViewController
+@interface CounselorCell : UITableViewCell
 
 @end
+
+
+UIKIT_EXTERN  NSString *conselorCellReuseID;
